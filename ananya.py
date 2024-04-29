@@ -31,7 +31,7 @@ def fibonacci(n):
     return fibonacci(n - 1) + fibonacci(n - 2)
 
 if __name__ == "__main__":
-    num = int(input("Enter a number: "))
+    num = 17
 
     # Calculate factorial
     fact = factorial(num)
