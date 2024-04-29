@@ -25,7 +25,7 @@ jobs:
 
     - name: Run pylint
       run: |
-        pylint calculate.py
+        pylint Ananya.py
 
     - name: Run Python script
-      run: python calculate.py
+      run: python Ananya.py
