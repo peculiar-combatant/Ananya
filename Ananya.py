@@ -1,3 +1,6 @@
+"""
+This module provides functions to calculate factorial and Fibonacci sequence.
+"""
 
 def factorial(n):
     """
@@ -37,4 +40,3 @@ if __name__ == "__main__":
     # Calculate Fibonacci sequence
     fib_sequence = [fibonacci(i) for i in range(num)]
     print(f"Fibonacci sequence of {num} numbers is: {fib_sequence}")
-
