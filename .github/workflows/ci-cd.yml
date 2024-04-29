@@ -24,7 +24,6 @@ jobs:
 
     - name: Run Python script
       run: |
-        pip install -r requirements.txt  # Assuming you have a requirements.txt file
         python ananya.py
 
   check_quality:
