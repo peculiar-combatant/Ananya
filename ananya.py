@@ -31,12 +31,12 @@ def fibonacci(n):
     return fibonacci(n - 1) + fibonacci(n - 2)
 
 if __name__ == "__main__":
-    num = 17
+    N = 17
 
     # Calculate factorial
-    fact = factorial(num)
-    print(f"Factorial of {num} is: {fact}")
+    fact = factorial(N)
+    print(f"Factorial of {N} is: {fact}")
 
     # Calculate Fibonacci sequence
-    fib_sequence = [fibonacci(i) for i in range(num)]
-    print(f"Fibonacci sequence of {num} numbers is: {fib_sequence}")
+    fib_sequence = [fibonacci(i) for i in range(N)]
+    print(f"Fibonacci sequence of {N} numbers is: {fib_sequence}")
